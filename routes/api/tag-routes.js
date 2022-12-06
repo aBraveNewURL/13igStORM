@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Tag, Product, ProductTag, Category } = require('../../models');
+const { Tag, Product } = require('../../models');
 
 // The `/api/tags` endpoint
 
