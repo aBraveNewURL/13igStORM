@@ -1,5 +1,5 @@
 require('dotenv').config();
-// !Sequelize with caps possible issue of break?
+
 const Sequelize = require('sequelize');
 
 const sequelize = process.env.JAWSDB_URL
